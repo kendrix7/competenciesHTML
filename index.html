@@ -1,22 +1,26 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- 54I -->
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <title>Code Tutorials</title>
+    <meta name="description" content="Code Tutorials"> <!-- 58D 58E 58G -->
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <link rel="stylesheet" type="text/css" href="./index.css"> <!-- 54G 54H 54J -->
+    <title>Code Tutorials</title> <!-- 58C -->
 </head>
 
+<!-- 54C -->
 <body>
-    <div class='title_bar'>
-        <h1 id='stupidId'>The Web's Best Code Tutorials</h1>
-    </div>
+    <header class='title_bar'>
+        <h1 id='stupidId'>The Web's Best Code Tutorials</h1> <!-- 54E 54F -->
+    </header>
 
     <div class='video_main_container'>
-        <div class='video_container'>
-            <h3>Title</h3>
+        <div class='video_container'> 
+            <h3>Title</h3> 
+            <!-- 56C 56D -->
             <video class='video' src='./assets/vid1.mp4' controls>
             </video>
         </div>
@@ -51,14 +55,14 @@
 
 </body>
 
-<footer>
+<footer> <!-- 54D -->
     <button class='popup' onClick='randomVideo()'>
         Random Video
         <div class="popupvideo" id="myPopup">
             <video class='video' src='./assets/kittens-puppies.mp4' controls></video>
         </div>
     </button>
-    <script>
+    <script> // 61C
         function randomVideo() {
             var popup = document.getElementById('myPopup');
             popup.classList.toggle('show');
@@ -67,3 +71,7 @@
 </footer>
 
 </html>
+
+<!-- 57B doctype allows lets you get the most accurate renderig of your site regardless of the browser it runs in. It declares the grammar of the mark up language you are using. -->
+
+<!-- 55C 55D 55E-1 55E-2 Semantic markup refers to the way we label tags in html. It is important because it lets the browser and the developer know the purpose of the element. It allows data to be shared and reused across applications and communities (according to W3C). Best practices include using <header> for headers and <nav> for navbars etc. It pretty much means that you should use the semantic tools when they are appropriate and now just <div> everything. -->
