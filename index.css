@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* background-color: lightgrey; */
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -36,7 +35,51 @@ footer {
     align-items: center;
 }
 
-button {
-    width: 100px;
-    height: 25px;
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popupvideo {
+    visibility: hidden;
+    width: 600px;
+    height: 300px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    padding-top: 40px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -350%;
+    margin-bottom: 200px;
+}
+
+.popup .popupvideo::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
 }

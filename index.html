@@ -44,11 +44,16 @@
 </body>
 
 <footer>
-    <button onClick='randomVideo()'>
+    <button class='popup' onClick='randomVideo()'>
         Random Video
+        <div class="popupvideo" id="myPopup">
+            <video class='video' src='./assets/kittens-puppies.mp4' controls></video>
+        </div>
     </button>
     <script>
         function randomVideo() {
+            var popup = document.getElementById('myPopup');
+            popup.classList.toggle('show');
         }
     </script>
 </footer>
