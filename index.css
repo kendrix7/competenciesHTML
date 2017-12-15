@@ -118,3 +118,10 @@ q {
     quotes: "\00ab" "\00bb" "\2039" "\203A";
     float: right;
 }
+
+.image_container {
+    width: 400px;
+    height: 250px;
+    margin: 30px;
+    background-image: url(https://thumb1.shutterstock.com/display_pic_with_logo/1389400/262156130/stock-photo-asian-baby-sleeping-on-the-bed-with-middle-finger-262156130.jpg)
+}
