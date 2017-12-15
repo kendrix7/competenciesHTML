@@ -1,0 +1,16 @@
+h1 {
+    background-color: grey;
+}
+
+.title_bar {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+
+}
+
+.video_constainer {
+    width: 33%;
+    height: 600px;
+}
+
