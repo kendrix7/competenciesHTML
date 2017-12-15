@@ -1,4 +1,4 @@
-/* 22C-1 23D*/
+/* 22C-1 23D I would just like to state that this looked really nice before I had to ruin it with stupid shit*/
 #stupidId {
     font-weight: bold;
     font-size: 2em;
@@ -25,6 +25,7 @@ div + p {
     justify-content: center;
 }
 
+/* 25F 24D 24F*/
 .video_main_container {
     display: flex;
     justify-content: center;
@@ -34,6 +35,10 @@ div + p {
     height: 800px;
     padding-left: 30px;
     padding-right: 30px;
+    box-sizing: border-box;
+    border-width: 30px;
+    border-style: solid;
+    border-color: pink;
 }
 
 .video_container {
@@ -63,7 +68,7 @@ footer {
     cursor: pointer;
 }
 
-/* 22C-2 24C */
+/* 22C-2 24C 24E */
 .popup .popupvideo {
     visibility: hidden;
     width: 600px;
@@ -80,6 +85,7 @@ footer {
     margin-bottom: 200px;
 }
 
+/* 25C */
 .popup .popupvideo::after {
     content: "";
     position: absolute;
@@ -105,4 +111,9 @@ footer {
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+/* 22C-4 */
+q {
+    quotes: "\00ab" "\00bb" "\2039" "\203A";
 }
