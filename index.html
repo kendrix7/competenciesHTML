@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="tect/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
     <title>Code Tutorials</title>
 </head>
 
@@ -14,21 +14,29 @@
         <h1>The Web's Best Code Tutorials</h1>
     </div>
 
-    <div class='video_container'>
-        <div class='video_div'>
-            <video src='./assets/vid1.mp4' controls>
+    <div class='video_main_container'>
+        <div class='video_container'>
+            <video class='video' src='./assets/vid1.mp4' controls>
             </video>
         </div>
-        <div class='video_div'>
-            <video src='./assets/vid1.mp4' controls>
+        <div class='video_container'>
+            <video class='video' src='./assets/vid2.mp4' controls>
             </video>
         </div>
-        <div class='video_div'>
-            <video src='./assets/vid1.mp4' controls>
+        <div class='video_container'>
+            <video class='video' src='./assets/vid3.mp4' controls>
             </video>
         </div>
-        <div class='video_div'>
-            <video src='./assets/vid1.mp4' controls>
+        <div class='video_container'>
+            <video class='video' src='./assets/vid4.mp4' controls>
+            </video>
+        </div>
+        <div class='video_container'>
+            <video class='video' src='./assets/kittens-puppies.mp4' controls>
+            </video>
+        </div>
+        <div class='video_container'>
+            <video class='video' src='./assets/vid1.mp4' controls>
             </video>
         </div>
     </div>
@@ -36,9 +44,13 @@
 </body>
 
 <footer>
-    <button>
+    <button onClick='randomVideo()'>
         Random Video
     </button>
+    <script>
+        function randomVideo() {
+        }
+    </script>
 </footer>
 
 </html>
