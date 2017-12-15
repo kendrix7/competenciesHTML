@@ -113,7 +113,8 @@ footer {
     to {opacity:1 ;}
 }
 
-/* 22C-4 */
+/* 22C-4 25D */
 q {
     quotes: "\00ab" "\00bb" "\2039" "\203A";
+    float: right;
 }
